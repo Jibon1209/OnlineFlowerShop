@@ -10,7 +10,7 @@ header{
     height: 850px;
     padding: 50px 240px 0px 240px;
     align-items: center;
-    /* justify-content: space-between; */
+    margin-bottom: 50px;
 }
 #top_img{
     width: 635px;
@@ -52,31 +52,27 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    border: none;
 }
-.section_3{
+.section_2{
+    margin-bottom: 50px;
+}
+.section2_div1{
     width: 1922px;
-    height: 620px;
-    border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05)
+    height: 449px;
+    text-align: center;
+    padding: 130px 650px 130px;
 }
-.sec3_div{
-    display: flex;
-    align-items: center;
-    padding: 100px 400px;
-    justify-content: space-between;
-}
-.sec_hed{
+#section2_h4{
     color: #272727;
+    text-align: center;
     font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
-#sec3_span{
-    color: rgba(229, 84, 115, 1);
-}
-.sec3_para{
+#section2_p{
     display: flex;
     width: 594px;
     flex-direction: column;
@@ -88,11 +84,82 @@ header{
     font-weight: 400;
     line-height: 30px;
 }
-.sec3_signup{
-    display: inline-flex;
-    padding: 20px 43px;
-    gap: 10px;
-    text-decoration: none;
+.card{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.section_3{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    margin: 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 120px;
+}
+.section3-info{
+    text-align: center;
+    width: 50%;
+}
+.offer-img{
+    width: 50%;
+    text-align: center;
+}
+.offer-img img{
+    width: 318px;
+    height: 420px;
+}
+.section3-txt{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+.section_4{
+    background: url(/images/Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    margin: 0px 240px 50px;
+    text-align: center;
+
+}
+.section4_div1{
+    padding: 120px 500px 10px;
+}
+
+#section4_h3{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#section4_h5{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.section4_input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+}
+.section4_btn{
+    width: 150px;
+    height: 64px;
     border-radius: 8px;
     background: #E55473;
     color: #FFF;
@@ -102,4 +169,59 @@ header{
     font-weight: 700;
     line-height: normal;
     border: none;
+
 }
+input[placeholder]{
+color: rgba(39, 39, 39, 0.60);
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 20px;
+}
+
+.footer-class{
+    width: 1922px;
+    height: 449px;
+    text-align: center;
+    background-color: #111010;
+    padding: 130px 650px 130px;
+}
+
+#footer_h{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+#footer_span{
+    color: #FFFFFF;
+}
+#footer_p1{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    line-height: 30px;
+    width: 625px;
+    flex-direction: column;
+}
+#footer_p2{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+
+
